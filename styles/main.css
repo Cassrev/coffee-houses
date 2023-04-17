@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+display: flex;
+gap: 10px;
+    gap: 10px 20px;
+    /* row-gap column gap */
+    row-gap: 10px;
+    column-gap: 20px;
+    
+}
+
+header.pageHeader {
+    align-content: center;
+}
+
+.list {
+    display: table-row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    
+}
+
+.shop {
+    border: 2px dotted #1C6EA4;
+
+}
